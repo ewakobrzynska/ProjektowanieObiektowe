@@ -3,7 +3,7 @@ program ex1;
 var
   lista_liczb: array[1..50] of Integer;
 
-procedure GenerujLosoweLiczby();
+procedure GenerujLosoweLiczby(od, do_: Integer; ile: Integer);
 var
   i: Integer;
 begin
@@ -11,30 +11,31 @@ begin
   Randomize;
 
   // generate
-  for i := 1 to 50 do
+  for i := 1 to ile do
   begin
-    lista_liczb[i] := Random(101); // random 1 to 100
+    lista_liczb[i] := Random(do_ - od + 1) + od;
   end;
 end;
 
-procedure WyswietlLiczby();
+
+procedure WyswietlLiczby(ile: Integer);
 var
   i: Integer;
 begin
-  for i := 1 to 50 do
+  for i := 1 to ile do
   begin
     write(lista_liczb[i], ' ');
   end;
   writeln;
 end;
 
-procedure SortujLiczby();
+procedure SortujLiczby(ile: Integer);
 var
   i, j, temp: Integer;
 begin
-  for i := 1 to 49 do
+  for i := 1 to ile - 1 do
   begin
-    for j := 1 to 50 - i do
+    for j := 1 to ile - i do
     begin
       if lista_liczb[j] > lista_liczb[j + 1] then
       begin
@@ -47,8 +48,8 @@ begin
 end;
 
 begin
-  GenerujLosoweLiczby();
-  WyswietlLiczby();
-  SortujLiczby();
-  WyswietlLiczby();
+  GenerujLosoweLiczby(1, 100, 50); 
+  WyswietlLiczby(50);
+  SortujLiczby(50);
+  WyswietlLiczby(50);
 end.
