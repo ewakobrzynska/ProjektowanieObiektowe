@@ -1,4 +1,4 @@
-**Zadanie 1** Tytuł
+**Zadanie 1** Paradygmaty
 
 :white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/kprzystalski/workshop_template/commit/hash)
 
