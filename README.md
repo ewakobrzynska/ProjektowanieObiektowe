@@ -16,15 +16,15 @@
 
 Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprzystalski/projobj-php:latest. Baza danych dowolna, sugeruję SQLite.
 
-3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z CRUD
+:white_check_mark:  3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z CRUD [Link do commita 1](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/d8cd7c3655b3476206e4a5b7022b1917f691666d)
 
-3.5 Należy stworzyć skrypty do testów endpointów via curl
+:white_check_mark:  3.5 Należy stworzyć skrypty do testów endpointów via curl [Link do commita 1](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/eb0ddea405673c0308b07c22afd925fd60e72c09)
 
-4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami
+:x: 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami
 
-4.5 Należy stworzyć widoki do wszystkich kontrolerów
+:x: 4.5 Należy stworzyć widoki do wszystkich kontrolerów
 
-5.0 Stworzenie panelu administracyjnego z mockowanym logowaniem 
+:x: 5.0 Stworzenie panelu administracyjnego z mockowanym logowaniem 
 
 
 **Zadanie 3** [Wzorce kreacyjne]
