@@ -12,7 +12,7 @@
 
 
 
-**Zadanie 2** [Wzorce architektury]
+**Zadanie 2** [Wzorce architektury](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/zadanie2/my_project_name)
 
 Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprzystalski/projobj-php:latest. Baza danych dowolna, sugeruję SQLite.
 
