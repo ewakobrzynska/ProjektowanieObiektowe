@@ -27,17 +27,17 @@ Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprz
 :x: 5.0 Stworzenie panelu administracyjnego z mockowanym logowaniem 
 
 
-**Zadanie 3** [Wzorce kreacyjne]()
+**Zadanie 3** [Wzorce kreacyjne](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex3-0)
 
 Spring Boot (Kotlin)
 
 Proszę stworzyć prosty serwis do autoryzacji, który zasymuluje autoryzację użytkownika za pomocą przesłanej nazwy użytkownika oraz hasła. Serwis powinien zostać wstrzyknięty do kontrolera za pomocą anotacji @Autowired. Aplikacja ma oczywiście zawierać jeden kontroler i powinna zostać napisana w języku Kotlin. Oparta powinna zostać na frameworku Spring Boot, podobnie jak na zajęciach. Serwis do autoryzacji powinien być singletonem.
 
-:white_check_mark: 3.0 Należy stworzyć jeden kontroler wraz z danymi wyświetlanymi z listy na endpoint’cie w formacie JSON - Kotlin + Spring Boot [Link do commita 1](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/eb0ddea405673c0308b07c22afd925fd60e72c09)
+:white_check_mark: 3.0 Należy stworzyć jeden kontroler wraz z danymi wyświetlanymi z listy na endpoint’cie w formacie JSON - Kotlin + Spring Boot [Link do commita 1](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/5285ed650610766f93ccde4ce3e50d7e9b2f3f27)
 
-:white_check_mark: 3.5 Należy stworzyć klasę do autoryzacji (mock) jako Singleton w formie eager [Link do commita 2](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/eb0ddea405673c0308b07c22afd925fd60e72c09)
+:white_check_mark: 3.5 Należy stworzyć klasę do autoryzacji (mock) jako Singleton w formie eager [Link do commita 2](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/2dc5631a7d659f1c2492cd2b1ad171d01877725e)
 
-:white_check_mark: 4.0 Należy obsłużyć dane autoryzacji przekazywane przez użytkownika [Link do commita 3](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/eb0ddea405673c0308b07c22afd925fd60e72c09)
+:white_check_mark: 4.0 Należy obsłużyć dane autoryzacji przekazywane przez użytkownika [Link do commita 3](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/a53807eeabbf9c767ef49572ba02da033a876124)
 
 :x: 4.5 Należy wstrzyknąć singleton do głównej klasy via @Autowired
 
