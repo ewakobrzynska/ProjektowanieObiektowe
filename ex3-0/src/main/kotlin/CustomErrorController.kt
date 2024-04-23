@@ -7,7 +7,6 @@ class CustomErrorController : ErrorController {
 
     @RequestMapping("/error")
     fun handleError(): String {
-        // Tutaj możemy zdefiniować niestandardową stronę błędu lub przekierowanie
-        return "error" // Zakładając, że istnieje szablon HTML o nazwie "error.html"
+        return "error" 
     }
 }

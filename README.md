@@ -18,7 +18,7 @@ Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprz
 
 :white_check_mark:  3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z CRUD [Link do commita 1](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/d8cd7c3655b3476206e4a5b7022b1917f691666d)
 
-:white_check_mark:  3.5 Należy stworzyć skrypty do testów endpointów via curl [Link do commita 1](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/eb0ddea405673c0308b07c22afd925fd60e72c09)
+:white_check_mark:  3.5 Należy stworzyć skrypty do testów endpointów via curl [Link do commita 2](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/eb0ddea405673c0308b07c22afd925fd60e72c09)
 
 :x: 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami
 
@@ -27,21 +27,21 @@ Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprz
 :x: 5.0 Stworzenie panelu administracyjnego z mockowanym logowaniem 
 
 
-**Zadanie 3** [Wzorce kreacyjne]
+**Zadanie 3** [Wzorce kreacyjne]()
 
 Spring Boot (Kotlin)
 
 Proszę stworzyć prosty serwis do autoryzacji, który zasymuluje autoryzację użytkownika za pomocą przesłanej nazwy użytkownika oraz hasła. Serwis powinien zostać wstrzyknięty do kontrolera za pomocą anotacji @Autowired. Aplikacja ma oczywiście zawierać jeden kontroler i powinna zostać napisana w języku Kotlin. Oparta powinna zostać na frameworku Spring Boot, podobnie jak na zajęciach. Serwis do autoryzacji powinien być singletonem.
 
-3.0 Należy stworzyć jeden kontroler wraz z danymi wyświetlanymi z listy na endpoint’cie w formacie JSON - Kotlin + Spring Boot
+:white_check_mark: 3.0 Należy stworzyć jeden kontroler wraz z danymi wyświetlanymi z listy na endpoint’cie w formacie JSON - Kotlin + Spring Boot [Link do commita 1](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/eb0ddea405673c0308b07c22afd925fd60e72c09)
 
-3.5 Należy stworzyć klasę do autoryzacji (mock) jako Singleton w formie eager
+:white_check_mark: 3.5 Należy stworzyć klasę do autoryzacji (mock) jako Singleton w formie eager [Link do commita 2](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/eb0ddea405673c0308b07c22afd925fd60e72c09)
 
-4.0 Należy obsłużyć dane autoryzacji przekazywane przez użytkownika
+:white_check_mark: 4.0 Należy obsłużyć dane autoryzacji przekazywane przez użytkownika [Link do commita 3](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/eb0ddea405673c0308b07c22afd925fd60e72c09)
 
-4.5 Należy wstrzyknąć singleton do głównej klasy via @Autowired
+:x: 4.5 Należy wstrzyknąć singleton do głównej klasy via @Autowired
 
-5.0 Obok wersji Eager do wyboru powinna być wersja Singletona w wersji lazy
+:x: 5.0 Obok wersji Eager do wyboru powinna być wersja Singletona w wersji lazy
 
 
 
