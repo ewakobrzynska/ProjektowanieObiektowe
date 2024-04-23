@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.*
 class AuthController {
 
     @Autowired
-    private lateinit var authService: AuthService
+    private lateinit var authManager: AuthManager
 
     @GetMapping("/authenticate")
-    fun authenticate(@RequestParam username: String, @RequestParam password: String): String {
-        val isAuthenticated = authService.authenticate(username, password)
+    fun authenticateUser(@RequestParam username: String, @RequestParam password: String): String {
+        val isAuthenticated = authManager.authenticate(username, password)
         return if (isAuthenticated) {
             "User authenticated successfully"
         } else {
