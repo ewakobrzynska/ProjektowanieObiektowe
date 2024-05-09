@@ -4,16 +4,16 @@ import "gorm.io/gorm"
 
 type Coord struct {
 	ID             uint `gorm:"primary_key"`
-	Lon            float64
-	Lat            float64
+	Lon            float64 `json:"lon"`
+	Lat            float64 `json:"lat"`
 	WeatherModelID uint
 }
 
 type Weather struct {
 	ID             uint `gorm:"primary_key"`
-	Main           string
-	Description    string
-	Icon           string
+	Main           string `json:"main"`
+	Description    string `json:"description"`
+	Icon           string `json:"icon"`
 	WeatherModelID uint
 }
 
@@ -21,21 +21,21 @@ type Weather struct {
 
 type Wind struct {
 	ID             uint `gorm:"primary_key"`
-	Speed          float64
-	Deg            int
-	Gust           float64
+	Speed          float64 `json:"speed"`
+	Deg            int `json:"deg"`
+	Gust           float64 `json:"gust"`
 	WeatherModelID uint
 }
 
 type Rain struct {
 	ID             uint `gorm:"primary_key"`
-	OneH           float64
+	OneH           float64 `json:"1h"`
 	WeatherModelID uint
 }
 
 type Clouds struct {
 	ID             uint `gorm:"primary_key"`
-	All            int
+	All            int `json:"all"`
 	WeatherModelID uint
 }
 
