@@ -44,15 +44,15 @@ Proszę stworzyć prosty serwis do autoryzacji, który zasymuluje autoryzację u
 :x: 5.0 Obok wersji Eager do wyboru powinna być wersja Singletona w wersji lazy
 
 
-**Zadanie 4** [Wzorce strukturalne]()
+**Zadanie 4** [Wzorce strukturalne](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex4)
 
 Należy stworzyć aplikację w Go na frameworku echo. Aplikacja ma mieć jeden endpoint, minimum jedną funkcję proxy, która pobiera dane np. o pogodzie, giełdzie, etc. (do wyboru) z zewnętrznego API. Zapytania do endpointu można wysyłać w jako GET lub POST.
 
-:white_check_mark: 3.0 Należy stworzyć aplikację we frameworki echo w j. Go, która będzie miała kontroler Pogody, która pozwala na pobieranie danych o pogodzie (lub akcjach giełdowych)
+:white_check_mark: 3.0 Należy stworzyć aplikację we frameworki echo w j. Go, która będzie miała kontroler Pogody, która pozwala na pobieranie danych o pogodzie (lub akcjach giełdowych) [Link do commita 1](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/07c2e7f1a55344dd219d36f95650418221880668)
 
-3.5 Należy stworzyć model Pogoda (lub Giełda) wykorzystując gorm, a dane załadować z listy przy uruchomieniu
+:white_check_mark: 3.5 Należy stworzyć model Pogoda (lub Giełda) wykorzystując gorm, a dane załadować z listy przy uruchomieniu [Link do commita 2](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/ec749452cd4ad4545ce2d7039ecb5c232f98c5e1)
 
-4.0 Należy stworzyć klasę proxy, która pobierze dane z serwisu zewnętrznego podczas zapytania do naszego kontrolera
+:white_check_mark: 4.0 Należy stworzyć klasę proxy, która pobierze dane z serwisu zewnętrznego podczas zapytania do naszego kontrolera [Link do commita 3](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/28e667607a5448ecb39829d389bf2e0930de59f5)
 
 4.5 Należy zapisać pobrane dane z zewnątrz do bazy danych
 
