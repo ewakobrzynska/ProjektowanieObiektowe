@@ -54,9 +54,9 @@ Należy stworzyć aplikację w Go na frameworku echo. Aplikacja ma mieć jeden e
 
 :white_check_mark: 4.0 Należy stworzyć klasę proxy, która pobierze dane z serwisu zewnętrznego podczas zapytania do naszego kontrolera [Link do commita 3](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/28e667607a5448ecb39829d389bf2e0930de59f5)
 
-4.5 Należy zapisać pobrane dane z zewnątrz do bazy danych
+:white_check_mark: 4.5 Należy zapisać pobrane dane z zewnątrz do bazy danych [Link do commita 4](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/c938d9147e80daf20e9d350dc3a59bf9d5d64547)
 
-5.0 Należy rozszerzyć endpoint na więcej niż jedną lokalizację (Pogoda), lub akcje (Giełda) zwracając JSONa
+:x: 5.0 Należy rozszerzyć endpoint na więcej niż jedną lokalizację (Pogoda), lub akcje (Giełda) zwracając JSONa
 
 
 
