@@ -1,0 +1,18 @@
+version: '3'
+services:
+  server:
+    image: your-server-image
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./server:/app
+    command: ["go", "run", "main.go"]
+
+  client:
+    build: ./client
+    ports:
+      - "80:80"
+    volumes:
+      - ./client:/app
+    command: ["npm", "start"]
+
