@@ -1,12 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Cart = () => {
-  const [cart, setCart] = useState([]);
-
-  const addToCart = (product) => {
-    setCart([...cart, product]);
-  };
-
+const Cart = ({ cart, setCart }) => {
   const removeFromCart = (productId) => {
     setCart(cart.filter(item => item.id !== productId));
   };
