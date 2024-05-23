@@ -3,5 +3,5 @@ projectKey=ewakobrzynska_ProjektowanieObiektowe
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.54573
 dashboardUrl=https://sonarcloud.io/dashboard?id=ewakobrzynska_ProjektowanieObiektowe
-ceTaskId=AY-nDRX2wi1Lb_FsR_JI
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY-nDRX2wi1Lb_FsR_JI
+ceTaskId=AY-nN3vFwi1Lb_FsSABw
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY-nN3vFwi1Lb_FsSABw
