@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Cart = ({ cart, setCart }) => {
   const removeFromCart = (productId) => {
@@ -20,5 +21,15 @@ const Cart = ({ cart, setCart }) => {
   );
 };
 
-export default Cart;
+Cart.propTypes = {
+  cart: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      name: PropTypes.string.isRequired,
+      price: PropTypes.number.isRequired,
+    })
+  ).isRequired,
+  setCart: PropTypes.func.isRequired,
+};
 
+export default Cart;

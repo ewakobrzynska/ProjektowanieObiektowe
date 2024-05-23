@@ -1,6 +1,6 @@
 # Dockerfile dla aplikacji klienta
 # Użyj oficjalnego obrazu Node.js jako bazowego obrazu
-FROM node:latest
+FROM node:my-app
 
 # Ustaw katalog roboczy w kontenerze
 WORKDIR /app
