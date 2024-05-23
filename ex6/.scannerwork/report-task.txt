@@ -1,0 +1,7 @@
+organization=ewakobrzynska
+projectKey=ewakobrzynska_ProjektowanieObiektowe
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.54573
+dashboardUrl=https://sonarcloud.io/dashboard?id=ewakobrzynska_ProjektowanieObiektowe
+ceTaskId=AY-m8-8a2wgPHO1IkfQs
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY-m8-8a2wgPHO1IkfQs
