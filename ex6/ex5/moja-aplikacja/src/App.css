@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.products-container {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.cart-payments-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-container,
+.payments-container {
+  width: 50%;
+}
+

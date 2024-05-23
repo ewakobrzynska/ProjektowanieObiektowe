@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - my-network
+
+  client:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    networks:
+      - my-network
+
+networks:
+  my-network:
+
