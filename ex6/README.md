@@ -1,6 +1,3 @@
-## Quality Gate Status
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ewakobrzynska_ProjektowanieObiektowe&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ewakobrzynska_ProjektowanieObiektowe)
-
 ## Bugs
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ewakobrzynska_ProjektowanieObiektowe&metric=bugs)](https://sonarcloud.io/summary/new_code?id=ewakobrzynska_ProjektowanieObiektowe)
 
