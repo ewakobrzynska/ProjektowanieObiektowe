@@ -1,3 +1,5 @@
+#Projektowanie Obiektowe
+---
 **Zadanie 1** [Paradygmaty](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/Ex1)
 
 :white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/74023fc667eb6dd1cd4a1171e3407b9bddb1728a)
@@ -10,7 +12,7 @@
 
 :x: 5.0 wymaganie 5 [Link do commita 5]
 
-
+---
 
 **Zadanie 2** [Wzorce architektury](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/zadanie2/my_project_name)
 
@@ -26,6 +28,7 @@ Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprz
 
 :x: 5.0 Stworzenie panelu administracyjnego z mockowanym logowaniem 
 
+---
 
 **Zadanie 3** [Wzorce kreacyjne](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex3-0)
 
@@ -43,6 +46,7 @@ Proszę stworzyć prosty serwis do autoryzacji, który zasymuluje autoryzację u
 
 :x: 5.0 Obok wersji Eager do wyboru powinna być wersja Singletona w wersji lazy
 
+---
 
 **Zadanie 4** [Wzorce strukturalne](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex4)
 
@@ -58,6 +62,7 @@ Należy stworzyć aplikację w Go na frameworku echo. Aplikacja ma mieć jeden e
 
 :x: 5.0 Należy rozszerzyć endpoint na więcej niż jedną lokalizację (Pogoda), lub akcje (Giełda) zwracając JSONa
 
+---
 
 **Zadanie 5** [Wzorce behawioralne React (JavaScript/Typescript)](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex5)
 
@@ -73,6 +78,7 @@ Należy stworzyć aplikację kliencką wykorzystując bibliotekę React.js. W ra
 
 5.0 Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
 
+---
 
 **Zadanie 6** [Zapaszki Sonar (JS)](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex6)
 
@@ -96,6 +102,7 @@ W ramach zadania VI należy zredukować błędy typu: Bugs, Security Hotspots, V
 
 5.0 Zredukować duplikaty kodu do 0%
 
+---
 
 **Zadanie 7** [Antywzorce Vapor (Swift)](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex7)
 
@@ -111,6 +118,7 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 
 5.0 Wrzucić aplikację na heroku
 
+---
 
 **Zad 8 Mobile first** [(Android)]()
 
@@ -124,7 +132,7 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 
 5.0 logowanie i rejestrację via Oauth2 dodać
 
-
+---
 
 **Zadanie 9** [Testy]()
 
