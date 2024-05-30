@@ -59,17 +59,17 @@ Należy stworzyć aplikację w Go na frameworku echo. Aplikacja ma mieć jeden e
 :x: 5.0 Należy rozszerzyć endpoint na więcej niż jedną lokalizację (Pogoda), lub akcje (Giełda) zwracając JSONa
 
 
-**Zadanie 5** [Wzorce behawioralne React (JavaScript/Typescript)]()
+**Zadanie 5** [Wzorce behawioralne React (JavaScript/Typescript)](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex5)
 
 Należy stworzyć aplikację kliencką wykorzystując bibliotekę React.js. W ramach projektu należy stworzyć trzy komponenty: Uslugi, Zamowienia oraz Płatności. Zamówienia oraz Płatności powinny wysyłać do aplikacji serwerowej dane, a w Uslugach powinniśmy pobierać dane o dostępnych usługach z aplikacji serwerowej. Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks.
 
-3.0 W ramach projektu należy stworzyć dwa komponenty: Produkty oraz Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w Produktach powinniśmy pobierać dane o produktach z aplikacji serwerowej;
+:white_check_mark: 3.0 W ramach projektu należy stworzyć dwa komponenty: Produkty oraz Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w Produktach powinniśmy pobierać dane o produktach z aplikacji serwerowej; [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/cf69a03bc40dace3a14a1f8f26dcb12679db7582)
 
-3.5 Należy dodać Koszyk wraz z widokiem; należy wykorzystać routing
+:white_check_mark: 3.5 Należy dodać Koszyk wraz z widokiem; należy wykorzystać routing [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/30868a98194b6f2e35e11314b098e3fae5afe06f)
 
-4.0 Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks
+:white_check_mark: 4.0 Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/e28e9bd7e6576b5ca752e5b1240667598dc6d9e0)
 
-4.5 Należy dodać skrypt uruchamiający aplikację serwerową oraz kliencką na dockerze via docker-compose
+:white_check_mark: 4.5 Należy dodać skrypt uruchamiający aplikację serwerową oraz kliencką na dockerze via docker-compose [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/814f7b99b501ea5955b111553764144e8232ddb1)
 
 5.0 Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
 
@@ -93,6 +93,7 @@ W ramach zadania VI należy zredukować błędy typu: Bugs, Security Hotspots, V
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ewakobrzynska_ProjektowanieObiektowe&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=ewakobrzynska_ProjektowanieObiektowe)
 
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ewakobrzynska_ProjektowanieObiektowe&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=ewakobrzynska_ProjektowanieObiektowe)
+
 5.0 Zredukować duplikaty kodu do 0%
 
 
