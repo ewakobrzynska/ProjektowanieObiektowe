@@ -1,0 +1,3 @@
+[submodule "ex7/MyApp"]
+	path = ex7/MyApp
+	url = https://github.com/ewakobrzynska/ProjektowanieObiektowe.git
