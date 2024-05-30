@@ -82,10 +82,17 @@ W ramach zadania VI należy zredukować błędy typu: Bugs, Security Hotspots, V
 
 :white_check_mark: 3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod aplikacji klienckiej) [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/9319907fd712a4e6b97de866c7d07a8629195ac5)
 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ewakobrzynska_ProjektowanieObiektowe&metric=bugs)](https://sonarcloud.io/summary/new_code?id=ewakobrzynska_ProjektowanieObiektowe)
+
 :white_check_mark: 4.0 Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji klienckiej) [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/deb104b9adc65e8338c9c3dfffa2332728193c54)
+
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ewakobrzynska_ProjektowanieObiektowe&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=ewakobrzynska_ProjektowanieObiektowe)
 
 :white_check_mark: 4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji klienckiej) [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/29150ef6ce8a18f5300b4f9aaf471db806df84a7)
 
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ewakobrzynska_ProjektowanieObiektowe&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=ewakobrzynska_ProjektowanieObiektowe)
+
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ewakobrzynska_ProjektowanieObiektowe&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=ewakobrzynska_ProjektowanieObiektowe)
 5.0 Zredukować duplikaty kodu do 0%
 
 
@@ -102,8 +109,6 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 4.5 Należy wykorzystać Redis do przechowywania danych
 
 5.0 Wrzucić aplikację na heroku
-
-https://www.heroku.com/github-students
 
 
 **Zad 8 Mobile first** [(Android)]()
