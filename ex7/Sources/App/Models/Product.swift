@@ -12,11 +12,15 @@ final class Product: Model, Content {
 
    /* @Field(key: "description")
     var description: String*/
+    @Field(key: "price")
+    var price: Double
 
     init() { }
 
-    init(id: UUID? = nil, name: String) {
+    init(id: UUID? = nil, name: String, price: Double) {
         self.id = id
         self.name = name
+        self.price = price
+
     }
 }
