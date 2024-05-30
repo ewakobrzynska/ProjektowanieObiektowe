@@ -1,5 +1,7 @@
 #Projektowanie Obiektowe
+
 ---
+
 **Zadanie 1** [Paradygmaty](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/Ex1)
 
 :white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/74023fc667eb6dd1cd4a1171e3407b9bddb1728a)
