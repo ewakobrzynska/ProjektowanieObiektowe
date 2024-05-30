@@ -7,12 +7,17 @@ struct ProductController: RouteCollection {
         productsRoute.post(use: create)
     }
 
-    func index(req: Request) throws -> EventLoopFuture<[Product]> {
-        return Product.query(on: req.db).all()
+    func index(req: Request) throws -> EventLoopFuture<View> {
+        return Product.query(on: req.db).all().flatMap { products in
+            let context = ["products": products]
+            return req.view.render("index", context)
+        }
     }
-
-    func create(req: Request) throws -> EventLoopFuture<Product> {
+    
+    func create(req: Request) throws -> EventLoopFuture<Response> {
         let product = try req.content.decode(Product.self)
-        return product.save(on: req.db).map { product }
+        return product.save(on: req.db).map { _ in
+            return req.redirect(to: "/products")
+        }
     }
 }

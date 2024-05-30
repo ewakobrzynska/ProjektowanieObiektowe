@@ -1,19 +1,13 @@
-import Fluent
 import FluentSQLiteDriver
-
+import Leaf
 import Vapor
 
 public func configure(_ app: Application) throws {
+    app.databases.use(.sqlite(.file("db.sqlite")), as: .sqlite)
 
+    // Register Leaf as a view renderer
+    app.views.use(.leaf)
 
-    app.migrations.add(CreateProduct())
-
-        app.databases.use(.sqlite(.file("db.sqlite")), as: .sqlite)
-
-
-    // Wykonaj migracje automatycznie
-    try app.autoMigrate().wait()
-
-    // Dodaj konfigurację routingu, usług itp.
+    // Register routes
     try routes(app)
 }

@@ -1,12 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>#(title)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
 </head>
-
 <body>
-  <h1>#(title)</h1>
+    <header>
+        <h1>Witamy na stronie</h1>
+    </header>
+
+    <main>
+        <h2>Lista produktów</h2>
+        <ul>
+            #for(product in products):
+                <li>#(product.name) - $ #(product.price)</li>
+            #endfor
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projektowanie Obiektowe</p>
+    </footer>
 </body>
 </html>
