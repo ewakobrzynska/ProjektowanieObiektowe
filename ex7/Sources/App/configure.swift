@@ -1,21 +1,19 @@
-import NIOSSL
 import Fluent
 import FluentSQLiteDriver
-import Leaf
+
 import Vapor
 
-// configures your application
-public func configure(_ app: Application) async throws {
-    // uncomment to serve files from /Public folder
-    // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
-
-app.databases.use(DatabaseConfigurationFactory.sqlite(.file("db.sqlite")), as: .sqlite)
-
-    app.migrations.add(CreateTodo())
-
-    app.views.use(.leaf)
+public func configure(_ app: Application) throws {
 
 
-    // register routes
+    app.migrations.add(CreateProduct())
+
+        app.databases.use(.sqlite(.file("db.sqlite")), as: .sqlite)
+
+
+    // Wykonaj migracje automatycznie
+    try app.autoMigrate().wait()
+
+    // Dodaj konfigurację routingu, usług itp.
     try routes(app)
 }
