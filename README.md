@@ -122,13 +122,13 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 
 ---
 
-**Zad 8 Mobile first** [(Android)]()
+**Zad 8 Mobile first** [(Android)](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex8)
 
-3.0 stworzenie listy kategorii oraz produktów
+:white_check_mark: 3.0 stworzenie listy kategorii oraz produktów [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/42ef576932a57cb60298bcf613bc41cece40e124)
 
-3.5 dodać koszyk
+:white_check_mark: 3.5 dodać koszyk [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/752755d2b3e5e0ee9f44d79e9de6666bb4462f37)
 
-4.0 stworzyć bazę w Realmie
+:white_check_mark: 4.0 stworzyć bazę w Realmie [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/54fcb863542177620fd74d828c26bf32251e33b5)
 
 4.5 dodać płatności w Stripe
 
@@ -137,9 +137,7 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 ---
 
 **Zadanie 9** [Testy]()
-
-Proszę pamiętać o stworzeniu darmowego konta via https://education.github.com/pack.
-
+ 
 3.0 Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium (Kotlin, Python, Java, JS, Go, Scala)
 
 3.5 Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50 asercji
