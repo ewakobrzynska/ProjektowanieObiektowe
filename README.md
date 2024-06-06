@@ -122,7 +122,7 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 
 ---
 
-**Zad 8 Mobile first** [(Android)](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex8)
+**Zad 8** [Mobile first (Android)](https://github.com/ewakobrzynska/ProjektowanieObiektowe/tree/main/ex8)
 
 :white_check_mark: 3.0 stworzenie listy kategorii oraz produktów [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/42ef576932a57cb60298bcf613bc41cece40e124)
 
