@@ -73,6 +73,36 @@ dependencies {
     implementation("com.google.android.material:material:1.9.0")
 // https://mvnrepository.com/artifact/io.realm/realm-gradle-plugin
     implementation("io.realm:realm-gradle-plugin:10.18.0")
+    // https://mvnrepository.com/artifact/io.realm/realm-android-library
+    implementation("io.realm:realm-android-library:10.18.0")
+    // https://mvnrepository.com/artifact/io.realm/realm-annotations
+    implementation("io.realm:realm-annotations:10.18.0")
+// https://mvnrepository.com/artifact/io.realm/realm
+    implementation("io.realm:realm:0.69.0")
+// https://mvnrepository.com/artifact/io.realm/realm-annotations-processor
+    implementation("io.realm:realm-annotations-processor:10.18.0")
+// https://mvnrepository.com/artifact/io.realm/android-secure-userstore
+    implementation("io.realm:android-secure-userstore:1.0.0")
+// https://mvnrepository.com/artifact/io.realm/secure-userstore
+    implementation("io.realm:secure-userstore:1.0.1")
+    // https://mvnrepository.com/artifact/io.realm/realm-android-kotlin-extensions-object-server
+    implementation("io.realm:realm-android-kotlin-extensions-object-server:10.18.0")
+// https://mvnrepository.com/artifact/io.realm/realm-transformer
+    implementation("io.realm:realm-transformer:10.18.0")
+// https://mvnrepository.com/artifact/io.realm/realm-android-library-object-server
+    implementation("io.realm:realm-android-library-object-server:10.18.0")
+    // https://mvnrepository.com/artifact/io.realm/realm-gradle-plugin
+    implementation("io.realm:realm-gradle-plugin:10.18.0")
+    // https://mvnrepository.com/artifact/io.realm/android-adapters
+    implementation("io.realm:android-adapters:2.1.1")
+    // https://mvnrepository.com/artifact/io.realm/realm-android
+    implementation("io.realm:realm-android:0.87.5")
+// https://mvnrepository.com/artifact/io.realm/realm-android-kotlin-extensions
+    implementation("io.realm:realm-android-kotlin-extensions:10.18.0")
+// https://mvnrepository.com/artifact/io.realm/realm-android-library
+    implementation("io.realm:realm-android-library:10.18.0")
+
+
 
 
 

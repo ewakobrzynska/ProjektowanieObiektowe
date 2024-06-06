@@ -1,7 +1,7 @@
 package com.example.myapplication.repositories
 
 import com.example.myapplication.models.Product
-import io.realm.gradle.Realm
+import io.realm.Realm
 
 class ProductRepository {
     fun addProduct(product: Product) {

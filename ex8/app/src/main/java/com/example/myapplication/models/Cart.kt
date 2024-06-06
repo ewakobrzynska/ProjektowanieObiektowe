@@ -2,7 +2,7 @@ package com.example.myapplication.models
 
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey
-
+import io.realm.Realm
 open class CartItem : RealmObject() {
     @PrimaryKey
     var productId: Int = 0

@@ -1,7 +1,7 @@
 package com.example.myapplication
 
 import android.app.Application
-import io.realm.gradle.Realm
+import io.realm.Realm
 
 class MyApplication : Application() {
     override fun onCreate() {
