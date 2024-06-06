@@ -1,32 +1,42 @@
 package com.example.myapplication.models
 
-data class CartItem(
-    val product: Product,
-    var quantity: Int
-)
+import io.realm.RealmObject
+import io.realm.annotations.PrimaryKey
+
+open class CartItem : RealmObject() {
+    @PrimaryKey
+    var productId: Int = 0
+    var quantity: Int = 0
+}
 
 object Cart {
-    private val items = mutableListOf<CartItem>()
-
-    fun addItem(product: Product) {
-        val item = items.find { it.product.id == product.id }
-        if (item != null) {
-            item.quantity += 1
-        } else {
-            items.add(CartItem(product, 1))
-        }
-    }
-
-    fun removeItem(product: Product) {
-        val item = items.find { it.product.id == product.id }
-        if (item != null) {
-            if (item.quantity > 1) {
-                item.quantity -= 1
+    fun addItem(realm: Realm, productId: Int) {
+        realm.executeTransaction { realmInstance ->
+            var cartItem = realmInstance.where(CartItem::class.java).equalTo("productId", productId).findFirst()
+            if (cartItem != null) {
+                cartItem.quantity += 1
             } else {
-                items.remove(item)
+                cartItem = realmInstance.createObject(CartItem::class.java, productId)
+                cartItem.quantity = 1
             }
         }
     }
 
-    fun getItems(): List<CartItem> = items
+    fun removeItem(realm: Realm, productId: Int) {
+        realm.executeTransaction { realmInstance ->
+            val cartItem = realmInstance.where(CartItem::class.java).equalTo("productId", productId).findFirst()
+            if (cartItem != null) {
+                if (cartItem.quantity > 1) {
+                    cartItem.quantity -= 1
+                } else {
+                    cartItem.deleteFromRealm()
+                }
+            }
+        }
+    }
+
+    fun getItems(realm: Realm): List<CartItem> {
+        val cartItems = realm.where(CartItem::class.java).findAll()
+        return realm.copyFromRealm(cartItems)
+    }
 }

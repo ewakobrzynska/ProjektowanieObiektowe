@@ -45,6 +45,7 @@ android {
         }
     }
     buildToolsVersion = "34.0.0"
+
 }
 
 dependencies {
@@ -70,5 +71,10 @@ dependencies {
     val appcompat_version = "1.7.0"
     implementation("androidx.appcompat:appcompat:$appcompat_version")
     implementation("com.google.android.material:material:1.9.0")
+// https://mvnrepository.com/artifact/io.realm/realm-gradle-plugin
+    implementation("io.realm:realm-gradle-plugin:10.18.0")
+
+
+
 
 }
