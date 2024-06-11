@@ -141,7 +141,7 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 :white_check_mark: 3.0 Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium (Kotlin, Python, Java, JS, Go, Scala) [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/0d9a795259e397f0c396a55faf466c5977ac395c)
 
 
-:white_check_mark: 3.5 Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50 asercji [Commit]()
+:white_check_mark: 3.5 Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50 asercji [Commit](https://github.com/ewakobrzynska/ProjektowanieObiektowe/commit/b7fe3f8c77eead29137b4b4803344c7cc7615c42)
 
 
 4.0 Należy stworzyć testy jednostkowe do wybranego wcześniejszego projektu z minimum 50 asercjami
